@@ -38,11 +38,11 @@ The sensor offers 6-axis measurement. Here is an example showing all the sensor 
 while(!Console.KeyAvailable)
 {
     Console.Clear();
-    var gyro = bno055Sensor.Gyroscope;
+    var gyro = bmi160Sensor.Gyroscope;
     Console.WriteLine($"Gyroscope X: {gyro.X} Y: {gyro.Y} Z: {gyro.Z}");
-    var accele = bno055Sensor.Accelerometer;
+    var accele = bmi160Sensor.Accelerometer;
     Console.WriteLine($"Acceleration X: {accele.X} Y: {accele.Y} Z: {accele.Z}");
-    var temp = bno055Sensor.Temperature.Celsius;
+    var temp = bmi160Sensor.Temperature.Celsius;
     Console.WriteLine($"Temperature: {temp} °C");
     Thread.Sleep(100);
 }
