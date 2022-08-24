@@ -30,7 +30,8 @@ namespace Iot.Device.Bmi160
         /// <param name="i2cDevice">The I2C Device</param>
         public Bmi160Sensor(I2cDevice i2cDevice)
         {
-            _i2cDevice = i2cDevice;
+            _i2cDevice = i2cDevice ?? throw new ArgumentNullException(nameof(i2cDevice));
+
         }
 
         /// <inheritdoc/>
