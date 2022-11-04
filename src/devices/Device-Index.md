@@ -114,6 +114,7 @@
 * [System.Device.Model - attributes for device bindings](System.Device.Model/README.md)
 * [TCA9548A Multiplexer](Tca9548a/README.md)
 * [TCS3472x Sensors](Tcs3472x/README.md)
+* [TCA954X Multiplexer](Tca954x/README.md)
 * [TLC1543 - 10-bit ADC with 11 input channels](Tlc1543/README.md)
 * [TM1637 - Segment Display](Tm1637/README.md)
 * [TSL256x - Illuminance sensor](Tsl256x/README.md)
